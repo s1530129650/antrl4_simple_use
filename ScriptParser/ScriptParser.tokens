@@ -1,0 +1,13 @@
+STRING=1
+WS=2
+LINE_COMMENT=3
+LPAREN=4
+RPAREN=5
+EQUALS=6
+SEMICO=7
+ASSIGN=8
+'<'=4
+'>'=5
+'='=6
+';'=7
+':='=8

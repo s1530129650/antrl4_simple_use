@@ -1,0 +1,6 @@
+parser grammar ScriptParser
+options { tokenVocab = ScriptLexer; }
+script    : (block)* EOF; 
+block     : (STRING LBRACE (command)* RBRACE);
+command   : (STRING (property)* SEMI);	
+property  : ( (STRING EQUALS)? STRING );

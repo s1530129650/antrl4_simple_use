@@ -1,0 +1,13 @@
+// What to do in the morning
+func morning <
+  name := "Jay";
+  greet morning=true input=@name;
+  eat cereals;
+  attend class="CS101";
+>
+
+// What to do at night
+func night <
+  brush_teeth;
+  sleep hours=8;
+>
